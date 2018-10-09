@@ -10,6 +10,7 @@
     Run chip8.exe and see two magenta paddles appear.  Exciting.
 
 ### Accepted Inputs
+    1,2,3,4
     Q,W,E,R
     A,S,D,F
     Z,X,C,V

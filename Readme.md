@@ -1,5 +1,5 @@
 ### Purpose
-	Find the most isolated point in within an arbitrary set of points within a reasonable time-frame.
+	Run Chip8 ROMs
 
 ### Build instructions:
 	Install the D language for your platform from https://dlang.org/

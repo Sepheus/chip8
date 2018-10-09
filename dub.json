@@ -1,0 +1,24 @@
+{
+	"name": "chip8",
+	"configurations": [
+		{
+		"name": "application",
+		"targetType": "executable",
+		"targetPath": "bin/win32/",
+		"platforms" : ["windows"],
+		"lflags": [
+			"/SUBSYSTEM:CONSOLE"
+		],
+		"libs" : ["lib/win32/allegro", "lib/win32/allegro_image", "lib/win32/allegro_font", "lib/win32/allegro_ttf", "lib/win32/allegro_primitives"]		
+		}
+	],
+	"authors": [
+		"Sepheus"
+	],
+	"description": "Chip8 Emulator",
+	"copyright": "Copyright © 2017, Sepheus",
+	"license": "GPL-3.0",
+	"dependencies" : {
+		"allegro": "~>4.0.1+5.2.0"
+	}
+}
